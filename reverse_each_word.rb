@@ -8,6 +8,6 @@ new_arr = []
   end
   
 
-return new_arr.join("")
+return new_arr.join(" ")
 
 end
