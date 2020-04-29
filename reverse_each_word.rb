@@ -1,4 +1,4 @@
-def(sentence)
+def reverse_each_word(sentence)
 
 sent = sentence.split(" ")
 new_arr = []
