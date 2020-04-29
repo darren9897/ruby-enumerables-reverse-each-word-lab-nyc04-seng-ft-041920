@@ -1,14 +1,15 @@
 def(sentence)
 
 sent = sentence.split(" ")
+new_arr = []
 
 sent.each do |sen|
-  sen.reverse
+  new_arr<< sen.reverse
   
   
 end
   
 
-return sent.join("")
+return new_arr("")
 
 end
