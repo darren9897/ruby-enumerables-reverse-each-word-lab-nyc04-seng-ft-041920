@@ -14,18 +14,13 @@ end
 
 
 def reverse_each_word(sentence)
-  
-  
-  
-  
-  
-  sentence.split.collect do |word|
+  new = sentence.split.collect do |word|
     word.reverse
     
   end
   
   
-  return sentence.join(" ")
+  return new.join(" ")
 
 
 end
