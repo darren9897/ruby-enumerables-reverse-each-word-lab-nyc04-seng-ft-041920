@@ -1,6 +1,7 @@
-def(string)
+def(sentence)
 
-
+sentence.each do |sent|
+  
 
 
 
